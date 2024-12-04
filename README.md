@@ -35,11 +35,21 @@ The dataset includes:
 
 ## Model Architecture
 
-We explored and implemented various models:
+### BLIP-CLIP VQA Model
+
+The **BLIP-CLIP** model is a groundbreaking multimodal framework that merges the best features of **BLIP** (Bootstrapped Language-Image Pretraining) and **CLIP** (Contrastive Language–Image Pretraining). This fusion enables advanced visual and textual reasoning tailored to VQA tasks.
+
+#### Highlights:
+- **Text Encoder (BLIP)**: Captures complex language representations.
+- **Vision Encoder (CLIP)**: Excels in extracting high-fidelity visual features.
+- **Fusion Mechanism**: Integrates textual and visual embeddings to deliver accurate responses to VQA tasks.
+- **Optimized for Education**: Fine-tuned on a specialized dataset for handling lecture-based content.
+
+### Other Models
 - **LLaVA-1.5**: Combines a vision encoder and a text encoder.
-- **BLIP**: Bootstrapped Language-Image Pretraining.
-- **Pix2Struct**: Designed for visually situated language processing.
-- **IDEFICS**: Open-source multimodal model for text and image understanding.
+- **Pix2Struct**: Excels in visually situated language processing.
+- **IDEFICS**: Open-source alternative for multimodal tasks.
+
 
 ### Optimizer and Loss
 - **Optimizer**: AdamW with weight decay.
